@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Beer Adviser</string>
+    <string name="button_text">Find Beer</string>
+    <string name="edittext_default">No Beer Selected</string>
+</resources>
