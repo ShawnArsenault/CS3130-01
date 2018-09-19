@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:text="Button"
+        android:onClick="resetScore"
+        tools:text="@string/reset" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="258dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174dp"
+        android:text="@string/defaultScore"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="131dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:text="@string/changescore"
+        android:onClick="scoreDarts"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-168dp"
+        android:text="@string/score" />
+</RelativeLayout>

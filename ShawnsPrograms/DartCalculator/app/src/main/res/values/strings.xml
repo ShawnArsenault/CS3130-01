@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DartCalculator</string>
+    <string name="reset">Reset to 501</string>
+    <string name="defaultScore">501</string>
+    <string name="score">Current Score</string>
+    <string name="changescore">Change Score</string>
+    <string name="defaultscore">501</string>
+    <string name="dart1">Dart 1</string>
+    <string name="dart2">Dart 2</string>
+    <string name="dart3">Dart 3</string>
+    <string name="currentScore">Current Score</string>
+    <string name="calculateScore">Return Calculated</string>
+    <string name="thrownScore">Thrown Score</string>
+    <string name="newScore">New Score</string>
+    <string name="add">Add</string>
+</resources>
